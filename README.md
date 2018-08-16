@@ -1,2 +1,2 @@
-# bem-barato-python
+# Bem Barato
 Search medicine in brazilian drugstores sites
