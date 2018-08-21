@@ -2,51 +2,13 @@
 
 import urllib.request
 import io, re, sys
-from html.parser import HTMLParser
 import time
-
-class DrugstoreHTMLParser(HTMLParser):
-    _items = None
-    _name = ""
-    _medicine = ""
-    _item = None
-
-    def set_medicine(self, medicine):
-        self._medicine = medicine
-
-    def get_medicine(self):
-        return self._medicine
-
-    def set_drugstore(self, name):
-        self._name = name
-    
-    def get_drugstore(self):
-        return self._name
-
-    def get_items(self):
-        return self._items
-
-    def handle_data(self, data):
-        name_pattern = re.compile("^"+self.get_medicine()+"((\s+?(\d+mcg|\d+mg))?\s+?(c\/|com)?\s+?(\d+)?\s+?(Comprimidos|cápsulas)?)?",flags=re.IGNORECASE)
-        value_pattern = re.search(r"^((R\$)?\s+?)?(?P<Price>\d{1,3},\d{2})$",data, flags=re.IGNORECASE)
-        if re.match(name_pattern, data):      
-            if self._items is None:
-                self._items = list()
-            else:
-                self._items.append(self._item)
-            matches =re.search(r"(?P<mcg>(\d+mcg|\d+mg))",data,flags=re.IGNORECASE)
-            if matches:
-                self._item = {'drugstore': self.get_drugstore(), 'name': data, 'mcg': matches.group('mcg'), 'values': list()}
-            else:
-                self._item = {'drugstore': self.get_drugstore(), 'name': data, 'mcg': 0, 'values': list()}
-        elif value_pattern:
-            if self._item != None:
-                values = self._item['values']
-                values.append(value_pattern.group('Price'))
-                # self._items.append(self._item)
+from optparse import OptionParser
+from models.Medicine import Medicine
+from datetime import datetime
+from parsers.DrugstoreHTMLParser import DrugstoreHTMLParser
 
 def get_webpage(url, headers=None):
-    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
     try: 
         if headers is None:
             req = urllib.request.Request(url, data=None)
@@ -62,6 +24,10 @@ def get_webpage(url, headers=None):
         print(e.read())
 
 parser = DrugstoreHTMLParser()
+
+argsParser = OptionParser()
+argsParser.add_option("--mcg", dest="mcg", help="Adicione o filtro de mcg")
+
 medicine = sys.argv[1]
 parser.set_medicine(medicine)
 
@@ -94,8 +60,8 @@ parser.feed(get_webpage("https://www.drogariasaopaulo.com.br/"+medicine+"?"))
 parser.set_drugstore("Pague Menos")
 parser.feed(get_webpage("https://www.paguemenos.com.br/"+medicine))
 
-parser.set_drugstore("Ultrafarma")
-parser.feed(get_webpage("http://busca.ultrafarma.com.br/search#w="+medicine))
+# parser.set_drugstore("Ultrafarma")
+# parser.feed(get_webpage("http://busca.ultrafarma.com.br/search#w="+medicine))
 
 def map_cheap_price(item):
     values = item['values']
@@ -117,6 +83,12 @@ medicines = filter(lambda i: i['price'] != 0.00,list(map(map_cheap_price, items)
 
 medicine_price_sorted = sorted(medicines, key=lambda medicine: medicine['price'])
 
-print("Farmacia; Nome; Preço")
-for medicine in medicine_price_sorted:
-    print("%s; %s; %7.2f"%(medicine['drugstore'],medicine['name'],medicine['price']))
+# print("Farmacia; Nome; Preço")
+for me in medicine_price_sorted:
+    medicine = Medicine()
+    medicine.name = me['name']
+    medicine.drugstore = me['drugstore']
+    medicine.mcg = me['mcg']
+    medicine.price = me['price']
+    medicine.created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    medicine.save()

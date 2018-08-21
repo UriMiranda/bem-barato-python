@@ -1,0 +1,3803 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+	
+
+
+	
+Droga Raia - Busca Resultados para synthroid
+
+
+	
+
+	
+
+			var facet_url='https://busca.drogaraia.com.br/search?isort=score&lbc=drogaraia&method=and&p=Q&ts=custom&uid=506433800&view=grid&w=synthroid';
+		
+
+		
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.drogaraia.com.br';
+//]]>
+
+
+
+
+
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+
+
+
+
+
+var slibaseurlsearch = 'http://';
+var slibaseurl = 'http://';
+
+
+
+  
+
+  
+function SLISearchSubmit(caller) { 
+        event.preventDefault ? event.preventDefault() : event.returnValue = false; 
+        var keyword = ''; 
+        if (caller.nodeName.match(/form/i)) { 
+            keyword = caller.w.value; 
+        } else { 
+            return false; 
+        } 
+        keyword = keyword.replace(/^\s+|\s+$/g, ''); 
+        if (keyword == '') { 
+            return false; 
+        } 
+        keyword = encodeURIComponent(keyword); 
+        window.location = window.location.protocol + "//busca.drogaraia.com.br/search?w=" + keyword; 
+        return false; 
+    }  
+
+ 
+
+
+//<![CDATA[
+        var Translator = new Translate({"HTML tags are not allowed":"N\u00e3o s\u00e3o permitidas tags HTML","Please select an option.":"Por favor selecione uma op\u00e7\u00e3o.","This is a required field.":"Este \u00e9 um campo obrigat\u00f3rio.","Please enter a valid number in this field.":"Por favor, insira somente n\u00fameros.","The value is not within the specified range.":"O valor n\u00e3o est\u00e1 dentro do intervalo especificado.","Please use numbers only in this field. Please avoid spaces or other characters such as dots or commas.":"Por favor use apenas n\u00fameros nesse campo. Por favor evite espa\u00e7os ou outros caracteres tais como pontos ou v\u00edrgulas.","Please use letters only (a-z or A-Z) in this field.":"Por favor use apenas letras (a-z ou A-Z) neste campo.","Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Por favor use apenas letras (a-z), n\u00fameros (0-9) ou underscore (_) neste campo, primeiro caractere deve ser uma letra.","Please use only letters (a-z or A-Z) or numbers (0-9) only in this field. No spaces or other characters are allowed.":"Por favor use apenas letras (a-z ou A-Z) ou n\u00fameros (0-9) apenas neste campo. Espa\u00e7os ou outros caracteres n\u00e3o s\u00e3o permitidos.","Please use only letters (a-z or A-Z) or numbers (0-9) or spaces and # only in this field.":"Por favor use apenas letras (a-z ou A-Z) ou n\u00fameros (0-9) ou espa\u00e7os e # apenas neste campo.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.":"Por favor insira um n\u00famero de telefone v\u00e1lido. Por exemplo (123) 456-7890 ou 123-456-7890.","Please enter a valid fax number. For example (123) 456-7890 or 123-456-7890.":"Por favor insira um n\u00famero de fax v\u00e1lido. Por exemplo (123) 456-7890 ou 123-456-7890.","Please enter a valid date.":"Por favor insira uma data v\u00e1lida.","The From Date value should be less than or equal to the To Date value.":"O valor Data Inicial deve ser menor que ou igual ao valor Data Final.","Please enter a valid email address. For example johndoe@domain.com.":"E-mail inv\u00e1lido","Please use only visible characters and spaces.":"Por favor use somente espa\u00e7os e caracteres vis\u00edveis.","Please enter 6 or more characters. Leading or trailing spaces will be ignored.":"M\u00ednimo de 6 e m\u00e1ximo de 12 caracteres","Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.":"Por favor insira 7 ou mais caracteres. Senha deve conter caracteres num\u00e9ricos e alfab\u00e9ticos.","Please make sure your passwords match.":"Senhas n\u00e3o conferem.","Please enter a valid URL. Protocol is required (http:\/\/, https:\/\/ or ftp:\/\/)":"Por favor insira um URL v\u00e1lido. Protocolo \u00e9 necess\u00e1rio  (http:\/\/, https:\/\/ ou ftp:\/\/)","Please enter a valid URL. For example http:\/\/www.example.com or www.example.com":"Por favor insira uma URL v\u00e1lida. Por exemplo http:\/\/www.exemplo.com ou www.exemplo.com","Please enter a valid URL Key. For example \"example-page\", \"example-page.html\" or \"anotherlevel\/example-page\".":"Por favor introduza uma chave de URL v\u00e1lida. Por exemplo, \"exemplo-pagina\", \"exemplo-pagina.html\" ou \"outronivel\/exemplo-pagina\".","Please enter a valid XML-identifier. For example something_1, block5, id-4.":"Por favor insira um identificador XML v\u00e1lido. Por exemplo qualquercoisa_1, bloco5, id-4.","Please enter a valid social security number. For example 123-45-6789.":"Por favor insira um n\u00famero v\u00e1lido de seguran\u00e7a social. Por exemplo 123-45-6789.","Please enter a valid zip code. For example 90602 or 90602-1234.":"Por favor insira um c\u00f3digo postal v\u00e1lido. Por exemplo 90602 ou 90602-1234.","Please enter a valid zip code.":"Por favor insira um c\u00f3digo postal v\u00e1lido.","Please use this date format: dd\/mm\/yyyy. For example 17\/03\/2006 for the 17th of March, 2006.":"Por favor utilize este formato de data: dd\/mm\/aaaa. Por exemplo 17\/03\/2006 para 17 de Mar\u00e7o de 2006.","Please enter a valid $ amount. For example $100.00.":"Por favor introduza uma quantidade v\u00e1lida de $. Por exemplo $100,00.","Please select one of the above options.":"Por favor selecione uma das op\u00e7\u00f5es acima.","Please select one of the options.":"Por favor selecione uma das op\u00e7\u00f5es.","Please select State\/Province.":"Por favor selecione Estado\/Prov\u00edncia.","Please enter a number greater than 0 in this field.":"Por favor insira um n\u00famero maior que 0 neste campo.","Please enter a number 0 or greater in this field.":"Por favor insira um n\u00famero 0 ou maior neste campo.","Please enter a valid credit card number.":"Por favor insira um n\u00famero v\u00e1lido de cart\u00e3o de cr\u00e9dito.","Credit card number does not match credit card type.":"O n\u00famero do cart\u00e3o de cr\u00e9dito n\u00e3o \u00e9 compat\u00edvel com o tipo de cart\u00e3o de cr\u00e9dito.","Card type does not match credit card number.":"Tipo de cart\u00e3o n\u00e3o corresponde ao n\u00famero de cart\u00e3o de cr\u00e9dito.","Incorrect credit card expiration date.":"Data de validade do cart\u00e3o de cr\u00e9dito incorreta.","Please enter a valid credit card verification number.":"Por favor insira um n\u00famero de verifica\u00e7\u00e3o de cart\u00e3o de cr\u00e9dito v\u00e1lido.","Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Por favor use somente letras (a-z ou A-Z), n\u00fameros (0-9) ou sublinhado (_) neste campo, e o primeiro caractere deve ser uma letra.","Please input a valid CSS-length. For example 100px or 77pt or 20em or .5ex or 50%.":"Por favor introduza um comprimento CSS v\u00e1lido. Por exemplo 100px ou 77pt ou 20em ou .5ex ou 50%.","Text length does not satisfy specified text range.":"Comprimento do texto n\u00e3o satisfaz intervalo de texto especificado.","Please enter a number lower than 100.":"Por favor insira um n\u00famero inferior a 100.","Please select a file":"Por favor selecione um arquivo","Please enter issue number or start date for switch\/solo card type.":"Por favor insira o n\u00famero de emiss\u00e3o ou data de in\u00edcio para tipo de cart\u00e3o switch\/solo.","Please wait, loading...":"Por favor aguarde, carregando...","This date is a required value.":"Esta data \u00e9 um valor necess\u00e1rio.","Please enter a valid day (1-%d).":"Por favor insira um dia v\u00e1lido (1-%d).","Please enter a valid month (1-12).":"Por favor insira um m\u00eas v\u00e1lido (1-12).","Please enter a valid year (1900-%d).":"Por favor insira um ano v\u00e1lido (1900-%d).","Please enter a valid full date":"Por favor insira uma data v\u00e1lida completa","Please enter a valid date between %s and %s":"Por favor insira uma data v\u00e1lida entre %s e %s","Please enter a valid date equal to or greater than %s":"Por favor insira uma data v\u00e1lida igual ou superior a %s","Please enter a valid date less than or equal to %s":"Por favor insira uma data v\u00e1lida menor ou igual a %s","Complete":"Completar","Add Products By SKU":"Adicione Produtos Por SKU","Please choose to register or to checkout as a guest":"Por favor escolha registrar ou fazer checkout como um convidado","Your order cannot be completed at this time as there is no shipping methods available for it. Please make necessary changes in your shipping address.":"Seu pedido n\u00e3o pode ser conclu\u00eddo neste momento pois n\u00e3o h\u00e1 m\u00e9todos de envio dispon\u00edveis para ele. Por favor fa\u00e7a as mudan\u00e7as necess\u00e1rias no seu endere\u00e7o de envio.","Please specify shipping method.":"Por favor especifique o m\u00e9todo de envio.","Your order cannot be completed at this time as there is no payment methods available for it.":"Seu pedido n\u00e3o pode ser conclu\u00eddo neste momento pois n\u00e3o h\u00e1 m\u00e9todos de pagamento dispon\u00edveis para ele.","Please specify payment method.":"Por favor especifique o m\u00e9todo de pagamento.","Add to Cart":"Adicionar ao carrinho","In Stock":"No Estoque","Out of Stock":"Esgotado","Wishlist Name":"Nome da Lista de Desejos","Save":"Salvar","Cancel":"Cancelar","Make This Wishlist Public":"Tornar esta lista de desejos p\u00fablica","Error happened during wishlist creation. Try again later":"Ocorreu um erro durante a cria\u00e7\u00e3o da lista de desejos. Tente novamente mais tarde","Create New Wishlist":"Criar Nova Lista de Desejos","Edit Wishlist":"Editar Lista de Desejos","Select items to move":"Selecione itens para mover","Select items to copy":"Selecione itens para copiar","Add to:":"Adicionar para:","Add to Wishlist":"Adicionar \u00e0 Lista de Desejos","The CPF informed is invalid.":"CPF inv\u00e1lido.","The CNPJ informed is invalid.":"CNPJ inv\u00e1lido.","The CPF has already been registered in another account.":"O CPF j\u00e1 foi cadastrado em outra conta.","Please, fill in the fields.":"Por favor, preencha os campos.","Please, complete the period.":"Por favor, preencha o per\u00edodo.","Please, complete the order number.":"Por favor, preencha o n\u00famero do pedido.","The password should be between 4 and 10 characters.":"M\u00ednimo de 6 e m\u00e1ximo de 12 caracteres","Postcode not found.":"CEP n\u00e3o encontrado.","--Please Select--":"--Por Favor, Escolha--","Incorrect cardholder name.":"Nome do titular do cart\u00e3o incorreto.","The taxvat is invalid":"O CPF ou CNPJ informado \u00e9 inv\u00e1lido","Check the values to pass on each card":"Confira os valores a passar em cada cart\u00e3o","Expiration date of the incorrect card":"Data de expira\u00e7\u00e3o do Cart\u00e3o incorreta","Total amount with interest: USD{%%%}":"<b>Valor total c\/ juros: <\/b>R${%%%}","There blocks to render.":"N\u00e3o h\u00e1 blocos para renderizar."});
+        //]]>
+
+
+#header-nav-mobile {    display: none !important;}@media only screen and (max-width: 1024px){.header-search {display: block!important;}}
+
+
+	
+	
+
+	
+	
+
+
+
+	(function() {
+		Ajax.Request.prototype.request = Ajax.Request.prototype.request.wrap(function(request, url) {
+			if (this.options.withCredentials) {
+				this.transport.withCredentials = true;
+			}
+			request(url);
+		});
+
+		var oldRequest = Ajax.Request.prototype.request;
+		Ajax.Request.prototype.request = function(url) {
+			this.transport.withCredentials = true;
+
+			if (url.match(/https:\/\/.+drogaraia\.com\.br\/(addtocart|checkout).+$/)) {
+				url = url.replace(/https:/g, document.location.protocol);
+				url = url.replace(/www.drogaraia.com.br/g, document.domain);
+			}
+			return oldRequest.apply(this, arguments);
+		}
+
+		$j.ajaxPrefilter (function (options) {
+			if (options.url.match(/https:\/\/.+drogaraia\.com\.br\/(addtocart|checkout).+$/)) {
+				options.url = options.url.replace(/https:/g, document.location.protocol);
+				options.url = options.url.replace(/www.drogaraia.com.br/g, document.domain);
+			}
+		})
+	})();
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ##################################################
+// Optional callbacks
+function searchCallback(data) {}
+function clickCallback(data) {}
+function conversionCallback(data) {
+
+  var hash = "_40b027bdba16dd60a4e691049812fde9";
+
+  var e = data.element;
+
+  var pItem = e.up('.eb-result');
+  var pImage = pItem.down('.eb-result-image-container');
+  var pName = pItem.down('.eb-result-name');
+  var pAttributes = pItem.down('.eb-result-brand');
+
+  pItem.addClassName('item');
+  pImage.addClassName('product-image');
+  pName.addClassName('product-name');
+  pAttributes.addClassName('product-attributes');
+
+  addToCart.addProductOnList(data.element, data.productId, hash);
+}
+// ##################################################
+richrelevanceFindUI.config('https://recs.richrelevance.com/rrserver/api', {
+  r3: R3_COMMON,
+  searchPlacement: 'search_page.find',
+  lang: 'pt',
+  displayLang: 'pt',
+  scope: 'desktop',
+  defaultCurrency: 'BRL',
+  pageRows: 24,
+  disableTracking: false,
+  defaultImage: 'https://drogaraia.resultspage.com/images/missing.png',
+  disableTracking: false,
+  debug: true,
+  eventTrigger: 'keyup',
+  domTrigger: '#search',
+  domHeader: '#header',
+  domMobileHeader: '#header .page-header-container',
+  breakpoint: 1024,
+  showAutoSuggest: true,
+  imagePrefix: 'http://i1.drogaraia.com.br/',
+  clickPrefix: 'http://www.drogaraia.com.br/',
+  customTrackSearch: searchCallback,
+  customTrackClick: clickCallback,
+  customTrackConversion: conversionCallback
+});
+
+
+                                            
+
+                
+
+                    
+
+                
+
+                
+
+                    //<![CDATA[
+                                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+                        var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+                        j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-PHMPXS');
+                    var dlCurrencyCode = 'BRL';
+                    //]]>
+                
+
+                
+
+                        
+    
+
+
+
+    
+
+    
+
+        
+
+        
+
+            
+
+                
+
+            
+
+            
+
+                
+
+                
+
+            
+
+        
+
+        
+
+            
+Continuar comprando
+
+            
+Finalizar compra
+
+        
+
+    
+
+
+
+
+
+
+
+        
+
+        
+
+            
+
+                
+
+                    
+O JavaScript parece estar desativado no seu navegador.
+
+                    Você deve ativar o Javascript no seu navegador para utilizar as funcionalidades deste site.                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+
+
+    
+
+
+        
+
+                            
+Drogaraia
+
+                    
+
+
+        
+
+            
+
+
+
+
+    
+
+    	
+Pesquisa:
+
+        
+
+        
+Buscar
+
+    
+
+
+
+
+
+
+        
+
+        
+        
+
+            
+Nossas Lojas
+
+        
+
+                
+
+            
+Sua oferta
+
+        
+
+        
+        
+
+            
+
+
+
+
+    
+
+    
+
+
+
+    
+Faça seu 
+Login
+
+
+
+Minha Conta
+
+
+
+
+            
+faça seu login
+
+        
+Cliente novo? 
+Cadastre-se
+
+            
+Troca ou devolução
+
+        
+Central de atendimento
+
+            
+Nossas Lojas
+
+        
+
+            
+Ajuda Online
+
+            
+
+                
+
+                    
+
+                    
+Buscar
+
+                
+
+            
+
+        
+
+        
+televendas
+3003-7242
+
+
+
+
+
+
+    esmart.tabsShowHideHover('.header-top-links', '#tab-account-content', '.header-top-links');
+
+
+        
+
+
+        
+
+            
+
+    
+
+
+
+        
+
+
+
+        
+
+        
+
+                        
+
+                        
+
+            
+
+        
+
+
+    
+
+
+    
+
+        
+
+  
+
+    
+
+      
+
+      
+
+      
+
+    
+
+  
+
+
+  
+
+    
+
+      
+
+        
+Menu de categoria
+
+        
+
+          
+Saúde
+Saúde
+Voltar
+Medicamentos
+Medicamentos
+Voltar
+Todos de A-Z
+Genéricos de A-Z
+Alergias e Infecções
+Anticoncepcionais
+Anti-Inflamatórios
+Anti-Tabagismo
+Asma
+Calmantes
+Congestão Nasal
+Diabetes
+Dor e Febre
+Dor de Garganta
+Emagrecedores
+Gripe e Resfriado
+Gastrite
+Hipertensão
+Tosse
+Visão
+Visão
+Voltar
+Colírios
+Produtos para Lentes
+Produtos para Visão
+Bem Estar
+Bem Estar
+Voltar
+Vitaminas
+Fitoterápicos
+Alimentos Funcionais
+Fitness
+Bebidas
+Complementos Alimentares
+Umidificadores
+Aparelhos e Testes
+Aparelhos e Testes
+Voltar
+Monitor de Pressão
+Termômetros
+Testes de Gravidez e Fertilidade
+Inaladores
+Controle Glicêmico
+Primeiros Socorros
+Primeiros Socorros
+Voltar
+Contusões
+Curativos
+Antissépticos
+Algodão
+Soros
+Ortopedia e Acessórios
+Ortopedia e Acessórios
+Voltar
+Joelheiras
+Suporte e Tipoias
+Tornozeleiras
+Meias Elásticas
+Massageador
+Cuidado Adulto
+Cuidado Adulto
+Voltar
+Absorvente Adulto
+Fralda Adulta
+Lenços e Pomadas
+Coisas de Criança
+Coisas de Criança
+Voltar
+Fraldas e Troca
+Fraldas e Troca
+Voltar
+Assaduras
+Fraldas
+Lenços Umedecidos
+Algodão
+Talcos
+Amamentação
+Amamentação
+Voltar
+Mamadeiras 
+Bicos
+Chupetas
+Copos
+Mordedores
+Tira Leite
+Alimentação
+Alimentação
+Voltar
+Fase 1
+Fase 2
+Fase 3
+Compostos Lácteos
+Fórmulas Infantis
+Complementos e Suplementos
+Papinhas
+Anti Refluxo
+Cereais Infantis
+Sem Lactose
+Soja
+Acessórios
+Hora do Banho
+Hora do Banho
+Voltar
+Shampoos
+Condicionadores
+Sabonetes
+Higiene Bucal
+Higiene Bucal
+Voltar
+Antissépticos
+Escovas
+Gel Dental
+Cuidados
+Cuidados
+Voltar
+Hidratantes
+Protetores Solares
+Cuidados para a mamãe
+Cuidados para a mamãe
+Voltar
+Absorventes
+Protetores de Seios
+Antiestrias
+Hidratantes
+Sua Beleza
+Sua Beleza
+Voltar
+Cuidados com a Pele
+Cuidados com a Pele
+Voltar
+Hidratante
+Limpeza da Pele
+Protetor Solar
+Bronzeadores
+Pós-Sol
+Antiidade
+Antiacne
+Colorações
+Colorações
+Voltar
+Descolorantes
+Femininas
+Masculinas
+Nutricosméticos
+Nutricosméticos
+Voltar
+Anticelulite e Firmadores
+Antioxidante
+Fortalecedor de Cabelos e Unhas
+Redutores de Medida
+Dermocosméticos
+Dermocosméticos
+Voltar
+Corpo
+Lábios
+Mãos e Pés
+Olhos
+Protetores Solares
+Tratamento Capilar
+Tratamento Facial
+Tratamentos Capilares
+Tratamentos Capilares
+Voltar
+Anticaspa
+Antiqueda
+Finalizadores para Cabelo
+Finalizadores para Cabelo
+Voltar
+Creme para Pentear
+Cera
+Gel
+Acessórios para Cabelos
+Acessórios para Cabelos
+Voltar
+Escovas
+Pentes
+Maquiagem
+Maquiagem
+Voltar
+Base, Corretivo e Pó
+Batom
+Lápis, Delineador e Rímel
+Máscara para Cílios
+Demaquilante
+Acessórios
+Luxo
+Luxo
+Voltar
+Clarins
+Clarins
+Voltar
+Corpo
+Anti-Idade
+Solares
+Hidratantes
+Homem
+Limpeza & Demaquilantes
+Olhos & Lábios
+Clinique
+Clinique
+Voltar
+Kits
+Anti-Idade
+Maquiagem
+Esfoliantes
+Hidratantes
+Homens
+Limpeza & Demaquilantes
+Olhos & Lábios
+Séruns
+Cuidados Diários
+Cuidados Diários
+Voltar
+Primeiros Socorros
+Primeiros Socorros
+Voltar
+Algodão
+Esparadrapos e Curativos
+Soros Fisiológicos
+Higiene Pessoal
+Higiene Pessoal
+Voltar
+Shampoo
+Condicionador
+Sabonetes
+Absorventes
+Desodorantes
+Desodorantes
+Voltar
+Aerosol
+Roll-on
+Stick
+Creme
+Higiene Bucal
+Higiene Bucal
+Voltar
+Escovas Dentais
+Escovas Interdentais
+Cremes Dentais
+Escova Elétrica
+Repelentes
+Repelentes
+Voltar
+Aerosol
+Loção
+Spray
+Preservativos
+Cuidados com os Pés
+Cuidados com os Pés
+Voltar
+Desodorante
+Hidratantes
+Esfoliantes
+Lixas
+Palmilhas
+Calcanheiras
+Acessórios Diversos
+Depilação
+Depilação
+Voltar
+Cremes Depilatórios
+Folhas Depilatórias
+Marcas Exclusivas
+Marcas Exclusivas
+Voltar
+B-Well
+Needs
+Triss
+Nutrigood
+Cuidados Masculinos
+Promoções
+Promoções
+Voltar
+Kits Presentes
+Leve Mais e Pague Menos
+Ofertas em destaque
+Ofertas em destaque
+Voltar
+Com até 30% de desconto
+Com até 50% de desconto
+Com até 70% desconto
+        
+
+      
+
+    
+
+    
+
+  
+
+
+  
+
+    
+
+      
+
+        
+Saúde
+Medicamentos
+Todos de A-Z
+Genéricos de A-Z
+Alergias e Infecções
+Anticoncepcionais
+Anti-Inflamatórios
+Anti-Tabagismo
+Asma
+Calmantes
+Congestão Nasal
+Diabetes
+Dor e Febre
+Dor de Garganta
+Emagrecedores
+Gripe e Resfriado
+Gastrite
+Hipertensão
+Tosse
+Visão
+Colírios
+Produtos para Lentes
+Produtos para Visão
+Bem Estar
+Vitaminas
+Fitoterápicos
+Alimentos Funcionais
+Fitness
+Bebidas
+Complementos Alimentares
+Umidificadores
+Aparelhos e Testes
+Monitor de Pressão
+Termômetros
+Testes de Gravidez e Fertilidade
+Inaladores
+Controle Glicêmico
+Primeiros Socorros
+Contusões
+Curativos
+Antissépticos
+Algodão
+Soros
+Ortopedia e Acessórios
+Joelheiras
+Suporte e Tipoias
+Tornozeleiras
+Meias Elásticas
+Massageador
+Cuidado Adulto
+Absorvente Adulto
+Fralda Adulta
+Lenços e Pomadas
+Coisas de Criança
+Fraldas e Troca
+Assaduras
+Fraldas
+Lenços Umedecidos
+Algodão
+Talcos
+Amamentação
+Mamadeiras 
+Bicos
+Chupetas
+Copos
+Mordedores
+Tira Leite
+Alimentação
+Fase 1
+Fase 2
+Fase 3
+Compostos Lácteos
+Fórmulas Infantis
+Complementos e Suplementos
+Papinhas
+Anti Refluxo
+Cereais Infantis
+Sem Lactose
+Soja
+Acessórios
+Hora do Banho
+Shampoos
+Condicionadores
+Sabonetes
+Higiene Bucal
+Antissépticos
+Escovas
+Gel Dental
+Cuidados
+Hidratantes
+Protetores Solares
+Cuidados para a mamãe
+Absorventes
+Protetores de Seios
+Antiestrias
+Hidratantes
+Sua Beleza
+Cuidados com a Pele
+Hidratante
+Limpeza da Pele
+Protetor Solar
+Bronzeadores
+Pós-Sol
+Antiidade
+Antiacne
+Colorações
+Descolorantes
+Femininas
+Masculinas
+Nutricosméticos
+Anticelulite e Firmadores
+Antioxidante
+Fortalecedor de Cabelos e Unhas
+Redutores de Medida
+Dermocosméticos
+Corpo
+Lábios
+Mãos e Pés
+Olhos
+Protetores Solares
+Tratamento Capilar
+Tratamento Facial
+Tratamentos Capilares
+Anticaspa
+Antiqueda
+Finalizadores para Cabelo
+Creme para Pentear
+Cera
+Gel
+Acessórios para Cabelos
+Escovas
+Pentes
+Maquiagem
+Base, Corretivo e Pó
+Batom
+Lápis, Delineador e Rímel
+Máscara para Cílios
+Demaquilante
+Acessórios
+Luxo
+Clarins
+Corpo
+Anti-Idade
+Solares
+Hidratantes
+Homem
+Limpeza & Demaquilantes
+Olhos & Lábios
+Clinique
+Kits
+Anti-Idade
+Maquiagem
+Esfoliantes
+Hidratantes
+Homens
+Limpeza & Demaquilantes
+Olhos & Lábios
+Séruns
+Cuidados Diários
+Primeiros Socorros
+Algodão
+Esparadrapos e Curativos
+Soros Fisiológicos
+Higiene Pessoal
+Shampoo
+Condicionador
+Sabonetes
+Absorventes
+Desodorantes
+Aerosol
+Roll-on
+Stick
+Creme
+Higiene Bucal
+Escovas Dentais
+Escovas Interdentais
+Cremes Dentais
+Escova Elétrica
+Repelentes
+Aerosol
+Loção
+Spray
+Preservativos
+Cuidados com os Pés
+Desodorante
+Hidratantes
+Esfoliantes
+Lixas
+Palmilhas
+Calcanheiras
+Acessórios Diversos
+Depilação
+Cremes Depilatórios
+Folhas Depilatórias
+Marcas Exclusivas
+B-Well
+Needs
+Triss
+Nutrigood
+Cuidados Masculinos
+Promoções
+Kits Presentes
+Leve Mais e Pague Menos
+Ofertas em destaque
+Com até 30% de desconto
+Com até 50% de desconto
+Com até 70% desconto
+        
+
+      
+
+    
+
+  
+
+  
+
+  (function($){
+    var jn2 = jn2 || {};
+    jn2.menu_mobile = {
+      z_index_level: 9999
+    }
+
+    $(document).ready(function(){
+
+      // Calculando o index do menu no desktop
+      $('#mega_menu li.level0.parent').hover(function(e) {
+        $(this).css('z-index', '11');
+        $('.menu-overlay').show();
+        e.preventDefault();
+        return false;
+      }, function(){
+        $('#mega_menu li.level0.parent').removeAttr('style');
+        $('.menu-overlay').hide();
+      });
+
+      // Abrindo menu mobile
+      $(document).on("click", ".mobile-hamburguer .btn-hamburguer", function(){
+        $(".mobile-top-menu").toggleClass("open");
+        $(this).parent().toggleClass("open");
+      });
+
+      // Abrindo proximo  ni­vel menu mobile
+      $(document).on("click", ".mobile-top-menu .menu a", function(){
+        $(this).parent().find(".menu").first().addClass("open").css({
+          "z-index": jn2.menu_mobile.z_index_level+1
+        });
+      });
+
+      // Fechando nivel atual mobile
+      $(document).on("click", ".mobile-top-menu .menu li.go-back a.go-back-link", function(){
+        $(this).closest(".menu").removeClass("open").css({
+          "z-index": jn2.menu_mobile.z_index_level-1
+        });;
+      });
+
+      // Calculando a distancia do detalhe da seta no menu desktop
+      $(window).on("resize", arrowCalc);
+      arrowCalc();
+      function arrowCalc(){
+        if( $(window).width() > 768 ){
+          $(".mega-menu-container-list li.level0").each(function(index, element){
+            $link = $(element).find("a.level0");
+            $arrow = $(element).find("span.arrow");
+            $menu = $("ol.mega-menu-container-list");
+            var left = ($link.offset().left + ($link.width()/2)) - $menu.offset().left - 53
+            if(left < 10){
+              left = 10;
+            }
+            $arrow.css({
+              left: left + "px"
+            });
+          });
+        }
+      }
+
+
+    });
+  })(jQuery)
+  
+
+
+    
+
+
+
+
+
+        
+
+            
+
+                                
+
+	
+
+	
+
+
+
+                
+
+	
+
+	
+	
+
+			
+ Resultado para 
+“synthroid”
+
+				
+
+
+
+		  		
+Buscas Sugeridas:
+
+		  		
+
+		  			
+Synthroid 125
+Synthroid 50
+Synthroid 88
+Synthroid 112
+Synthroid 137
+Levotiroxina
+Levotiroxina
+4466
+
+		  		
+
+	  		
+
+			
+
+	
+
+	
+
+
+
+		
+
+			
+
+				
+
+					
+
+						
+21 produtos encontrados
+
+					
+
+					
+	
+
+		
+Itens por página
+
+		
+
+			
+
+					
+12
+
+					
+24
+
+					
+36
+
+			
+
+		
+
+	
+
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						
+
+
+		
+1
+
+		
+2
+
+				
+
+					
+Próximo
+
+				
+
+			
+
+					
+
+				
+
+				
+
+					
+    
+
+        
+Ver como
+
+        
+Grade
+  |  
+Lista
+
+
+					
+	
+
+		
+Ordenar Por
+
+		
+
+			
+
+				
+Mais Vendidos
+
+				
+Menor Preço
+
+				
+Maior Preço
+
+				
+A-Z
+
+				
+Z-A
+
+			
+
+		
+
+	
+
+
+				
+
+			
+
+		
+
+	
+
+
+
+                
+
+                    
+	
+
+		
+
+            
+
+                
+	
+
+    
+
+
+                
+
+    
+refine sua 
+ busca por:
+
+	
+
+		
+
+			
+
+			Marcas
+
+			
+-
+
+		
+
+		
+
+			
+
+			
+
+
+	
+		
+
+		
+
+			
+Abbott
+ (11)
+
+		
+
+	
+
+
+
+	
+		
+
+		
+
+			
+Merck
+ (10)
+
+		
+
+	
+
+			
+
+			
+
+		
+
+	
+
+
+	
+
+		
+
+			
+
+			Preços
+
+			
+-
+
+		
+
+		
+
+			
+
+			
+
+
+	
+		
+
+		
+
+			
+Até R$10
+ (7)
+
+		
+
+	
+
+
+
+	
+		
+
+		
+
+			
+R$10 - R$20
+ (3)
+
+		
+
+	
+
+
+
+	
+		
+
+		
+
+			
+R$20 - R$30
+ (5)
+
+		
+
+	
+
+
+
+	
+		
+
+		
+
+			
+R$30 - R$50
+ (6)
+
+		
+
+	
+
+			
+
+			
+
+		
+
+	
+
+
+	
+
+		
+
+			
+
+			Fabricante
+
+			
+-
+
+		
+
+		
+
+			
+
+			
+
+
+	
+		
+
+		
+
+			
+Abbott
+ (11)
+
+		
+
+	
+
+
+
+	
+		
+
+		
+
+			
+Merck
+ (10)
+
+		
+
+	
+
+			
+
+			
+
+		
+
+	
+
+
+
+    
+filtros:
+
+	
+
+        
+Abbott (11)
+Merck (10)
+
+        
+
+
+	
+
+        
+Até R$10 (7)
+R$10 - R$20 (3)
+R$20 - R$30 (5)
+R$30 - R$50 (6)
+
+        
+
+
+	
+
+        
+Abbott (11)
+Merck (10)
+
+        
+
+
+
+
+
+                
+
+
+
+                
+
+
+
+            
+
+		
+
+	
+
+
+
+                        
+                         
+
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+	
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+	
+
+		
+
+
+
+
+
+
+
+	
+
+		
+
+			
+9% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 150mcg
+
+					
+Synthroid 150mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+39,79
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+29,15
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+20% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 100mcg
+
+					
+Synthroid 100mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+29,50
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+24,66
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+22% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 75mcg
+
+					
+Synthroid 75mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+27,92
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+23,83
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+9% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 25mcg
+
+					
+Synthroid 25mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+25,59
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+18,75
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+20% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 88mcg
+
+					
+Synthroid 88mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+28,95
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+24,24
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+7% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 200mcg
+
+					
+Synthroid 200mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+49,22
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+35,28
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+9% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 112mcg
+
+					
+Synthroid 112mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+35,20
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+25,79
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+21% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 50mcg
+
+					
+Synthroid 50mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+25,18
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+21,26
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+9% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 137mcg
+
+					
+Synthroid 137mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+38,41
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+28,14
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+19% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 125mcg
+
+					
+Synthroid 125mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+32,92
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+27,05
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+9% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Synthroid 175mcg
+
+					
+Synthroid 175mcg
+
+				
+
+				
+
+					
+
+						
+Abbott
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+43,74
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+32,04
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+33% de desconto
+
+				
+
+			
+
+			
+
+				
+				
+
+					
+Levotiroxina Sódica 100mcg
+
+					
+Levotiroxina Sódica 100mcg
+
+				
+
+				
+
+					
+
+						
+Merck
+
+						
+30 Comprimidos
+
+						
+LEVOTIROXINA SODICA
+
+						
+LEVOTIROXINA SODICA
+
+					
+
+				
+
+				
+
+	
+preço unitário: 
+R$
+4,86
+
+			
+
+				
+Leve 3 e pague
+
+				
+R$
+4,35
+
+				
+Cada unidade
+
+			
+
+					
+
+								
+									
+
+										
+Adicionar à
+
+									
+
+								
+
+					
+
+		
+
+	
+
+
+	
+
+
+
+
+
+		
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+	
+	
+
+
+
+
+
+		  		
+Buscas Sugeridas:
+
+		  		
+
+		  			
+Synthroid 125
+Synthroid 50
+Synthroid 88
+Synthroid 112
+Synthroid 137
+Levotiroxina
+Levotiroxina
+4466
+
+		  		
+
+	  		
+
+
+
+
+		
+
+			
+
+				
+
+					
+
+						
+21 produtos encontrados
+
+					
+
+					
+	
+
+		
+Itens por página
+
+		
+
+			
+
+					
+12
+
+					
+24
+
+					
+36
+
+			
+
+		
+
+	
+
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						
+
+
+		
+1
+
+		
+2
+
+				
+
+					
+Próximo
+
+				
+
+			
+
+					
+
+				
+
+				
+
+					
+    
+
+        
+Ver como
+
+        
+Grade
+  |  
+Lista
+
+
+					
+	
+
+		
+Ordenar Por
+
+		
+
+			
+
+				
+Mais Vendidos
+
+				
+Menor Preço
+
+				
+Maior Preço
+
+				
+A-Z
+
+				
+Z-A
+
+			
+
+		
+
+	
+
+
+				
+
+			
+
+		
+
+	
+
+
+
+	
+
+
+
+Desenvolvido
+ por
+ 
+
+
+
+
+	
+
+
+
+
+
+
+
+
+                     
+
+                
+
+                
+
+	
+
+	
+
+		
+
+		
+
+	
+
+	
+
+	
+
+
+
+            
+
+        
+
+        
+<!--
+.cms-index-index .barra-app {
+    width: 100%;
+    background-color: #016f87;
+    padding: 24px 0 10px 0;
+    display: inline-block;
+    clear: both;
+    color: #fff;
+    margin: 0px 0 -332px 0;
+}
+
+.barra-app {
+    width: 100%;
+    background-color: #016f87;
+    padding: 24px 0 10px 0;
+    display: inline-block;
+    line-height: 17px;
+    color: #fff;
+    margin: 8px 0 -53px 0;
+}
+
+.wrapper-baixe-nosso-app a {
+    float: left;
+}
+
+.wrapper-baixe-nosso-app {
+    width: 410px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.wrapper-baixe-nosso-app span {
+    float: left;
+    margin: -7px 0 9px 30px;
+}
+
+.wrapper-baixe-nosso-app img {
+    margin: -17px 0 0 0;
+}
+
+.page-header .inline p, .page-header .inline a {
+  
+    font-family: "din-light",Arial,Helvetica,sans-serif!important;
+}
+-->
+
+
+
+
+Descubra nosso APP
+ 
+ 
+ 
+
+
+
+
+        
+
+
+
+    
+
+        
+
+            
+
+                
+Serviços
+Nossas Lojas
+Programas dos Laboratórios
+Univers
+ 
+Atendimento
+Central de Atendimento
+Como comprar no site
+Formas de pagamento disponíveis
+Prazo de entrega
+Reembolso
+Troca ou devolução
+Produtos mais buscados
+
+
+// <![CDATA[
+//jQuery('.arrow-container').remove();
+//jQuery('.owl-controls.clickable').remove()
+jQuery('.prev').css('transform','skewX(0deg)');
+jQuery('.next').css('transform','skewX(0deg)');
+jQuery('.btn-cart').css('transform','skewX(0deg)');
+jQuery('.arrows').css('transform','skewX(0deg)');
+jQuery('#sli_search_1').attr('required','');
+jQuery('.coupon.no-display').removeClass('no-display')
+jQuery('.level0.nav-3.parent')[0].innerHTML = jQuery('.level0.nav-3.parent')[0].innerHTML.replace('https://www.drogaraia.com.br/sua-beleza.html', 'https://www.drogaraia.com.br/sua-beleza')
+// ]]>
+
+
+<!--
+ul#listhome1{
+z-index:2;
+}
+-->
+
+                
+Minha Conta
+
+    
+Criar novo cadastro
+
+    
+
+    
+Alterar dados pessoais
+
+    
+
+    
+Editar endereços
+
+    
+
+    
+Acompanhar um pedido
+
+    
+
+    
+ 
+
+
+
+
+Institucional
+
+    
+Nossa História
+
+    
+
+    
+Sustentabilidade
+
+    
+
+    
+Trabalhe Conosco
+
+    
+
+    
+Imprensa
+
+    
+
+    
+Investidores
+
+    
+
+
+
+                
+
+
+<!--
+.footer-container .footer .cols li.sales {
+    padding-right: 30px!important;
+}
+
+.ass_omni {  height: 229px; margin: auto;width: 220px;}
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+            
+
+            
+
+                
+
+
+
+
+                        
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+            
+            
+
+    
+                        
+
+                    
+
+            
+
+
+
+
+                
+
+
+ 
+
+
+
+                
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+
+
+
+
+
+            
+
+            
+
+                
+
+                
+A Droga Raia segue as determinações da
+ 
+
+                
+
+                                  
+
+            
+
+            
+
+                
+
+                    
+Raia Drogasil SA | DROGA RAIA | 61.585.865/0240-93 | I.E. 116.756.280.113 | Av. Nsa. Sra. Assunção, 638 | Butantã | São Paulo (SP) | CEP 05359-001 | Horário de Atendimento: Seg à Dom das 7h00 – 23h00 (11) 3765-0688 (11) 3765-2376 | Horário de Atendimento: Televendas: 3003-7242, 2ª a Sábado, das 8h às 20h | Raia Atendimento ao Cliente: 3003-7242, Dúvidas, elogios e reclamações: rac@drogaraia.com.br. 2ª a sábado, das 8h às 21h | Farmacêutico responsável: Ana Rosa Belini Marques | CRF 42.430 | AFE: 7.17094.5 | CMVS - 355030801-477-002443-1-7 As informações contidas neste site não devem ser usadas para automedicação e não substituem, em hipótese alguma, as orientações dadas pelo profissional da área médica. Somente o médico está apto a diagnosticar qualquer problema de saúde e prescrever o tratamento adequado. Ao persistirem os sintomas, um médico deverá ser consultado. Os preços e promoções divulgados no site são válidos apenas para compras feitas pela internet. Maiores esclarecimentos, consultar o site: www.anvisa.gov.br. A Raia Drogasil SA trabalha com as tecnologias mais avançadas de proteção de dados, para que você possa realizar suas compras com tranqüilidade. A privacidade e a segurança dos clientes são compromissos da Raia Drogasil SA. Todos os pedidos efetuados estão sujeitos à confirmação da disponibilidade de produto em nosso estoque.
+
+                    
+Política de privacidade
+ | © 2017 RD. Todos os direitos reservados.
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+
+        
+
+            
+
+            Termo de adesão para a compra com 1 clique
+            
+
+        
+
+
+         
+
+            
+Termo de adesão à funcionalidade compra com um clique Droga Raia
+
+
+
+            
+São partes deste instrumento, de um lado, Raia Drogasil S.A, com sede nesta Capital do Estado de São Paulo, na Avenida Corifeu de Azevedo Marques, nº 3097, Vila Butantã, CEP 05339-900, inscrita no CNPJ sob nº 61.585.865/0240-93, doravante denominada simplesmente DROGA RAIA e, do outro, o CLIENTE, pessoa física, assim doravante designada.
+
+
+
+            
+CONSIDERANDO QUE:
+
+
+            
+I.	A Droga Raia oferece a seus clientes a opção de compras com um clique de produtos comercializados no site www.drogaraia.com.br;
+
+            
+II. O cliente deseja adquirir produtos através do sistema de compras com um clique. 
+
+            
+As partes acima identificadas e qualificadas resolvem firmar o presente acordo, que se regerá pelas seguintes condições:
+
+
+            
+CLÁUSULA PRIMEIRA – OBJETO:
+
+
+            
+1.1 A Droga Raia oferecerá a seus clientes a opção de utilizarem a Compra com um Clique Droga Raia, na qual o cliente escolhe previamente o(s) produto(s) que deseja receber pela Droga Raia, sem limitação de itens.
+
+            
+1.2. A Droga Raia se compromete a praticar o preço do produto disponível no site Droga Raia no momento do faturamento do pedido.
+
+
+
+            
+CLÁUSULA SEGUNDA - DA UTILIZAÇÃO DA COMPRA COM UM CLIQUE:
+
+
+            
+2.1. Para utilizar a funcionalidade Compra com um Clique, o cliente deverá ser cadastrado no site Droga Raia.
+
+            
+2.1.1. Os dados pessoais coletados são mantidos em sigilo, com controle estrito de acesso, mediante mecanismos de autenticação.
+
+            
+2.2. A partir do cadastro, a Droga Raia procederá a checagem das informações cadastradas pelo Cliente.
+
+            
+2.3 A funcionalidade Compra com um Clique só estará disponível para a forma de pagamento cartão de crédito.
+
+            
+2.3.1 A Droga Raia garante segurança e privacidade de identidade aos internautas que fazem compras no site da Droga Raia.
+
+            
+2.4. O cliente é responsável pela atualização permanente de seus dados cadastrais e dados do cartão junto ao site Droga Raia.
+
+            
+2.5. O cliente poderá acompanhar seu pedido efetuando o login e senha por ele cadastrados no site Droga Raia, estando o ciente de que estes são dados pessoais e intransferíveis.
+
+            
+2.6. A Droga Raia se reserva o direito de analisar o cadastro do CLIENTE a qualquer tempo, seja quando da efetivação do cadastro ou durante a vigência do mesmo. 
+
+            
+2.7.  Caso a Droga Raia constate qualquer indício de fraude ou irregularidade no cadastro do CLIENTE, poderá cancelar o serviço do CLIENTE, sem notificação prévia. 
+
+            
+2.8. A Droga Raia poderá a qualquer tempo e sem comunicação prévia, modificar quaisquer disposições deste Termo de Adesão. 
+
+
+
+            
+CLÁUSULA TERCEIRA - DADOS RELATIVOS A OPERAÇÕES FINANCEIRAS
+
+
+            
+3.1 Recursos técnicos como certificação digital e criptografia são utilizados visando a sua autenticidade, confidencialidade e integridade. As informações que trafegam através do processo de compra-e-venda online no site da Droga Raia são protegidas por HTTPS (usualmente, um cadeado fechado no navegador indica que a conexão é segura).
+
+            
+3.2 A Identificação (Login e Senha) é obrigatória em todo processo de compra.
+
+            
+3.3. Os números do cartão de pagamento informados pelo cliente são utilizados exclusivamente para fins de autorização das transações de compra, sendo criptografados e de acordo com as melhores práticas de mercado.
+
+
+
+            
+CLÁUSULA QUARTA - DO FUNCIONAMENTO DA COMPRA COM UM CLIQUE:
+
+
+            
+4.1. O Cliente que não estiver cadastrado no site da Droga Raia, poderá efetuar a Compra com um Clique após a realização do cadastro, selecionando a opção de salvar os dados para comprar com um clique da próxima vez.
+
+            
+4.1.1. Após a realização do cadastro, conforme as condições acima, a Compra com um Clique já exercerá sua devida função nas futuras compras realizadas pelo cliente, utilizando tal opção. 
+
+            
+4.2. Para a utilização da Compra com um Clique é necessário ter pelo menos um cartão de crédito cadastrado.
+
+            
+4.2.2 O cliente poderá cadastrar mais de um cartão de crédito, após o cadastro de pessoa física no site Droga Raia, na área do cliente, na página Compre com um clique.
+
+            
+4.2.3. Os dados dos cartões de crédito cadastrados no site da Droga Raia ficarão armazenados para a utilização da Compra com um Clique e são protegidos por sistemas avançados de criptografia, mantidos em sigilo em servidores seguros da Droga Raia. 
+
+            
+4.3. O cliente que utilizar a Compra com um Clique terá seu pedido automaticamente cobrado no cartão de crédito escolhido e enviado para o endereço cadastrado.
+
+            
+4.3.1 A Compra com um Clique é válida somente para 1 (um) produto. Caso o cliente possua mais itens adicionados à cesta, o mesmo será alertado e a compra com um clique só será efetuada para aquele produto, cuja opção de compra escolhida foi “Compra com um Clique”. 
+
+            
+4.4. A escolha do produto que será incluído na funcionalidade de Compra com um Clique será realizada pelo cliente e esta escolha não poderá ser alterada.
+
+            
+4.5. Os produtos / medicamentos que necessitam de apresentação e/ou retenção de receita médica não fazem parte deste programa. 
+
+
+
+
+            
+CLÁUSULA QUINTA - DO ENVIO DO PRODUTO E FRETE:
+
+
+            
+5.1 Dúvidas sobre o envio do produto e/ou frete, poderão ser consultadas no endereço http://www.drogaraia.com.br/central-de-atendimento?ai=frete% do site Droga Raia.
+
+
+
+            
+CLÁUSULA SEXTA - DA TROCA DE PRODUTOS OU DEVOLUÇÃO DO PEDIDO REALIZADO ATRAVÉS DA COMPRA COM UM CLIQUE:
+
+
+            
+6.1. Dúvidas sobre a troca ou cancelamento do pedido realizados no site Droga Raia, poderão ser consultados no endereço http://www.drogaraia.com.br/central-de-atendimento?ai=trocaoudevolucao
+
+
+
+            
+CLÁUSULA SÉTIMA - DISPOSIÇÕES GERAIS:
+
+
+            
+7.1. Este Termo de Adesão vigorará por tempo indeterminado, a contar da aceitação do cliente na utilização do recurso.
+
+            
+7.2. O cliente declara que avaliou e aceita a utilização da função Compra com um Clique quando escolhida e concorda com todos os termos e condições do presente. 
+
+
+
+
+         
+
+
+        
+
+
+            
+
+            
+
+                
+li e aceito o termo de adesão
+
+            
+
+
+            
+
+            
+continuar
+
+        
+
+    
+
+
+
+
+
+
+    buscarTermoAtualizarGeral(' https://www.drogaraia.com.br/');
+
+
+
+
+
+
+ 
+
+
+
+    
+Atualize o seu navegador para a versão mais recente e aproveite todas as funcionalidades do nosso site.
+X
+
+
+
+
+
+  navigator.sayswho = (function(){
+    var ua= navigator.userAgent, tem,
+    M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+    if(/trident/i.test(M[1])){
+        tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+        return 'IE '+(tem[1] || '');
+    }
+    if(M[1]=== 'Chrome'){
+        tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+        if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+    }
+    M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+    return M.join(' ');
+})();
+
+var browser = navigator.sayswho;
+browser = browser.toLowerCase();
+
+if(browser.indexOf('safari') >=0){
+  browser = browser.replace("safari",'');
+  browser = parseInt(browser);
+  if(browser < 8){
+    jQuery(".info-safari").show();
+  }
+}
+jQuery(".info-safari-close").click(function(){
+    jQuery(".info-safari").hide();
+})
+
+
+                
+
+
+
+
+
+
+
+    /**
+     * Instance add to cart class after page loaded
+     */
+    window.addToCart = new AddToCart(
+        'https://www.drogaraia.com.br/addtocart/checkout_cart/add/isAjax/1/no_cache/1/',
+        'minicart_head',
+        'addtocart_popup'
+    );
+
+
+
+
+    (function (a, b, c, d, e, f, g) {
+        a['CsdmObject'] = e; a[e] = a[e] || function () {
+            (a[e].q = a[e].q || []).push(arguments)
+        }, a[e].l = 1 * new Date(); f = b.createElement(c),
+            g = b.getElementsByTagName(c)[0]; f.async = 1; f.src = d; g.parentNode.insertBefore(f, g)
+    })(window, document, 'script', '//device.clearsale.com.br/m/cs.js', 'csdm');
+    csdm('app', 'a32938024e');
+
+
+
+         
+
+    
+
+        
+
+            
+x
+
+            
+
+                
+Novidade
+
+                        
+                
+Faça seu login
+e veja suas ofertas
+personalizadas no site
+da 
+Droga Raia.
+
+                        
+            
+
+            
+                        
+                
+Confira
+
+                        
+        
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+    jQuery('#checkout-shipping-method-load').click(function (el) {
+        UiCompreRetire.freteClick()
+    })
+
+
+
+
+var cookieString = 'EXTERNAL_NO_CACHE='
+var expiryDate = new Date();
+expiryDate.setTime(expiryDate.getTime() - 86400 * 1000);
+cookieString += ';max-age=0';
+cookieString += ';expires=' + expiryDate.toUTCString();
+document.cookie = cookieString;
+
+
+
+
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"741b8f3d34","applicationID":"14379473","transactionName":"YFxSZkZQXUFQVUULWlkWcVFAWFxcHkVdCxpEXFFAV1kcRlRbQQ5UQ1w=","queueTime":0,"applicationTime":202,"atts":"TBtREA5KTk8=","errorBeacon":"bam.nr-data.net","agent":""}
+
+
+
+
+
+
+
+
+
+
+
+
+(function(window, undefined) {
+	window.SLI = window.SLI || {};
+	window.SLI.config = SLI.config || {};
+	window.SLI.config.rac = SLI.config.rac || {};
+	window.SLI.config.ajax = SLI.config.ajax || {};
+	window.SLI.config.search = SLI.config.search || {};
+	SLI.config.ga_domain = 'https://www.drogaraia.com.br/'.match(/^https?[^\.]+?\.?([^\/]+)/i)[1].replace(/^www\./i,'');
+	SLI.config.ajax.enabled = true;
+		SLI.config.ajax.version = "2.1";SLI.config.ajax.ln = false;SLI.config.ajax.templateId = 'ajax';
+		SLI.config.ajax.lnpath = '';
+		SLI.config.rac.templateId = 'rac';
+		SLI.config.search.templateId = 'custom';
+		SLI.config.ajax.productsDiv = 'div[data-sli-selector="products-container"]';})(window);
+
+
+
+
+
+
+
+
+
+
+
+	if (typeof SliSpark !== "undefined" ) {
+		var spark = new SliSpark('2172', '1');
+	}	
+
+
+
+
+
+
+
+
+
+	if (typeof spark !== "undefined" ) {
+	spark.addSearch("synthroid","21","1","","score");spark.addPageSku("4482");
+spark.addPageSku("4466");
+spark.addPageSku("4359");
+spark.addPageSku("4440");
+spark.addPageSku("99350");
+spark.addPageSku("58481");
+spark.addPageSku("59519");
+spark.addPageSku("4458");
+spark.addPageSku("36397");
+spark.addPageSku("1446");
+spark.addPageSku("36496");
+spark.addPageSku("45210");
+
+    spark.setPageType('searchresults');
+		spark.writeTrackCode();
+	}
+
+
+
+
+
+
+
+
+
+//new GA code, should work automatically you don't need to change anything
+try {
+	if (typeof(_gaq) !== "undefined") {
+		_gaq.push(['_setDomainName', SLI.config.ga_domain]);
+		_gaq.push(['_trackPageview']);
+	}
+	if (typeof(pageTracker) !== "undefined") {
+		pageTracker._setDomainName(SLI.config.ga_domain);
+		pageTracker._trackPageview();
+	}
+	if (typeof(ga) !== "undefined") {
+		ga('send', 'pageview');
+	}
+} catch (err) {
+	console.log(err);
+}
+
+
+
+
+
+
+
+var SLI_formkey = null;
+jQuery(document).ready(function(){
+	jQuery.ajax({
+		url: 'https://www.drogaraia.com.br/sli/api/cart',
+		dataType: 'jsonp',
+		jsonp: 'id',
+		jsonpCallback: 'sliCartRequest',
+		success: function(){}
+	});
+});
+function sliCartRequest(data){
+	SLI_formkey = data.form_key ? data.form_key : null;
+
+	if (data.logged_in == true){
+		jQuery('p.login').hide();
+	}
+
+}
+
+
+
+
+
+
+var SLI_currentPID = null;
+function sliCartRequest(data){
+	NumberOfItems = data.NumberOfItems || '0';
+	TotalPrice = data.TotalPrice.replace(/R\$/, '') || '0,00';
+	SLI_formkey = data.form_key ? data.form_key : null;
+	if (data.logged_in == true){
+		jQuery('p.login').hide();
+	}
+	jQuery('#minicart_head').html('<a href=" https://www.drogaraia.com.br/checkout/cart/" ?=""><div class="mini-cart-before"></div></a><a id="show-mini-cart" class="skip-cart active"><span class="label">'+NumberOfItems+' Cesta</span><span class="amount"><span>R$</span>'+TotalPrice+'</span></a>');
+	jQuery('.novarnish-load').hide();
+}
+
+
+
+
+
+
+
+
+
+
+
+Farmacia; Nome; Preço
+Droga Raia; Synthroid 175mcg;    4.35
+Droga Raia; Synthroid 175mcg;    4.35
+Droga Raia; Synthroid 175mcg;    4.35
+Droga Raia; Synthroid 175mcg;    4.35
+Droga Raia; Synthroid 25mcg;   18.75
+Droga Raia; Synthroid 25mcg;   18.75
+Droga Raia; Synthroid 50mcg;   21.26
+Droga Raia; Synthroid 50mcg;   21.26
+Droga Raia; Synthroid 75mcg;   23.83
+Droga Raia; Synthroid 75mcg;   23.83
+Droga Raia; Synthroid 88mcg;   24.24
+Droga Raia; Synthroid 88mcg;   24.24
+Droga Raia; Synthroid 100mcg;   24.66
+Droga Raia; Synthroid 100mcg;   24.66
+Droga Raia; Synthroid 112mcg;   25.79
+Droga Raia; Synthroid 112mcg;   25.79
+Droga Raia; Synthroid 125mcg;   27.05
+Droga Raia; Synthroid 125mcg;   27.05
+Droga Raia; Synthroid 137mcg;   28.14
+Droga Raia; Synthroid 137mcg;   28.14
+Droga Raia; Synthroid 150mcg;   29.15
+Droga Raia; Synthroid 150mcg;   29.15
+Droga Raia; Synthroid 200mcg;   35.28
+Droga Raia; Synthroid 200mcg;   35.28
